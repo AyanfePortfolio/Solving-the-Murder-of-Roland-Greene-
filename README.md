@@ -21,8 +21,15 @@ Using structured query language (SQL), this project analyzes access logs, call r
 - Determine the most likely suspect based on evidence
 
 
-## Tools & Technologies
-
+## Tools Used
 - Microsoft SQL Server (SSMS)
 - SQL (Joins, filtering, time-based analysis)
 - CSV datasets
+
+## Dataset 
+| Table                 | Description                           |
+| --------------------- | ------------------------------------- |
+| suspects_large        | Suspect identities, roles, and alibis |
+| access_logs_records   | Door access records with timestamps   |
+| call_records_large    | Incoming and outgoing call logs       |
+| forensic_events_large | Timeline of forensic events           |
