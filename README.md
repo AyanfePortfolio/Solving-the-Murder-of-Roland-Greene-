@@ -10,12 +10,19 @@ Using structured query language (SQL), this project analyzes access logs, call r
 
 ## Objectives
 
-Reconstruct the timeline of events using SQL
+- Reconstruct the timeline of events using SQL
 
-Verify suspects’ alibis against digital records
+- Verify suspects’ alibis against digital records
 
-Identify individuals present at the crime scene
+- Identify individuals present at the crime scene
 
-Cross-reference forensic data with movement logs
+- Cross-reference forensic data with movement logs
 
-Determine the most likely suspect based on evidence
+- Determine the most likely suspect based on evidence
+
+
+## Tools & Technologies
+
+- Microsoft SQL Server (SSMS)
+- SQL (Joins, filtering, time-based analysis)
+- CSV datasets
