@@ -1,4 +1,4 @@
-# Solving-the-Murder-of-Roland-Greene-
+# Solving-the-Murder-of-Roland-Greene
 Solving the Murder of Roland Greene (SQL Investigation Project)
 
 ## Project Overview
@@ -43,7 +43,7 @@ Using structured query language (SQL), this project analyzes access logs, call r
 
 ### Task 1: Database Schema SetUp 
 
--- Create Suspects Table
+** Create Suspects Table**
 CREATE TABLE suspects_large (
     suspect_id INTEGER PRIMARY KEY,
     name VARCHAR(50),
