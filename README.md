@@ -38,15 +38,17 @@ Using structured query language (SQL), this project analyzes access logs, call r
 <a href="https://github.com/AyanfePortfolio/Solving-the-Murder-of-Roland-Greene-/blob/main/call_records_large.csv"> call_records_large </a>
 <a href="https://github.com/AyanfePortfolio/Solving-the-Murder-of-Roland-Greene-/blob/main/forensic_events_large.csv"> forensic_events_large </a>
 
--- ============================================================================
--- TASK 1: DATABASE SCHEMA SETUP
--- ============================================================================
+
+## Task Queries 
+
+### Task 1: Database Schema SetUp 
 
 -- Create Suspects Table
 CREATE TABLE suspects_large (
     suspect_id INTEGER PRIMARY KEY,
-    name VARCHAR(100),
-    role VARCHAR(100),
-    relation_to_victim VARCHAR(100),
+    name VARCHAR(50),
+    role VARCHAR(50),
+    relation_to_victim VARCHAR(50),
     alibi VARCHAR(255)
 );
+
