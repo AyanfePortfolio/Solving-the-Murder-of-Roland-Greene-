@@ -33,3 +33,20 @@ Using structured query language (SQL), this project analyzes access logs, call r
 | access_logs_records   | Door access records with timestamps   |
 | call_records_large    | Incoming and outgoing call logs       |
 | forensic_events_large | Timeline of forensic events           |
+<a href="https://github.com/AyanfePortfolio/Solving-the-Murder-of-Roland-Greene-/blob/main/suspects_large.csv"> suspects_large </a>
+<a href="https://github.com/AyanfePortfolio/Solving-the-Murder-of-Roland-Greene-/blob/main/access_logs_large.csv"> access_logs_records </a>
+<a href="https://github.com/AyanfePortfolio/Solving-the-Murder-of-Roland-Greene-/blob/main/call_records_large.csv"> call_records_large </a>
+<a href="https://github.com/AyanfePortfolio/Solving-the-Murder-of-Roland-Greene-/blob/main/forensic_events_large.csv"> forensic_events_large </a>
+
+-- ============================================================================
+-- TASK 1: DATABASE SCHEMA SETUP
+-- ============================================================================
+
+-- Create Suspects Table
+CREATE TABLE suspects_large (
+    suspect_id INTEGER PRIMARY KEY,
+    name VARCHAR(100),
+    role VARCHAR(100),
+    relation_to_victim VARCHAR(100),
+    alibi VARCHAR(255)
+);
